@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#home{
+    background-image: linear-gradient(to right, #ffba24 17%, ffde98 17%)
+}
+
+#submit,
+#klean,
+#title {
+    background-image: linear-gradient(to right, rgba(238, 130, 238, 0.7), rgba(0, 0, 255, 0.581));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#btndemo{
+    background-image: linear-gradient(to right, rgba(238, 130, 238, 0.7), rgba(0, 0, 255, 0.581));
+}
