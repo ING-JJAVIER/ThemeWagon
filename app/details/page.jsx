@@ -24,7 +24,7 @@ export default function Details() {
         <article className='w-1/2 flex justify-center'>
           <div className='w-1/2 '>
             <h2 className='font-bold text-3xl mb-6'>Devoted to defining the cutting edge</h2>
-            <p className='text-[.75rem] mb-6'>"This new creation is cutting-edge technology." says the researcher, "whose study originates from a business at the forefront of space science."</p>
+            <p className='text-[.75rem] mb-6'>"This new creation is cutting-edge technology" says the researcher, "whose study originates from a business at the forefront of space science"</p>
             <p className='text-[.70rem]'>Klean is a free Bootstrap 5 templates for multipurpose landing pages. This design is a perfect choice, carefully curated by <strong>ThemeWagon</strong></p>
             <button id='read' type='button' className='font-semibold text-sm border w-24 h-8 rounded-lg mt-8'>Read More</button>
           </div>
