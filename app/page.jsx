@@ -1,12 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
-import Services from './services/page'
+
 
 
 export default function Home() {
   return (
     <>
-       <div>
+      {/*  <div>
       <div id='home' className='flex justify-center items-center h-full w-full'>
         <article className='flex justify-end h-full'>
           <div className='w-11/12 text-end'>
@@ -34,7 +34,8 @@ export default function Home() {
           <Image className='w-12 h-5' src="/themewagon.png" width="500" height="300" alt='image' />
         </div>
       </footer>
-      </div>
+      </div> */}
+      
     </>
   )
 }
