@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export default function Navbar() {
     return (
-        <nav className='flex h-14 w-full bg-gradient-to-r from-transparent via-white to-transparent'>
+        <nav className='flex h-14 w-full bg-gradient-to-r from-transparent from-1% via-white via-98% to-transparent to-1%'>
 
             <ul className='w-full text-[.65rem]'>
                 <div id='menu' className='flex items-center w-full justify-start  px-10 py-3'>

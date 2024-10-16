@@ -2,19 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+#Navbar,
 #home,
 #services,
 #details,
 #features,
 #projects,
-#team {
+#team,
+#testimonial {
     background: #f8f2fb;
 }
 
 #submit,
 #klean,
 #title,
-#read {
+#read,
+#outstanding {
     background-image: linear-gradient(to right, rgba(238, 130, 238, 0.7), rgba(0, 0, 255, 0.581));
     background-clip: text;
     -webkit-background-clip: text;
