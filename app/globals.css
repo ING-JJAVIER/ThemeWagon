@@ -8,17 +8,28 @@
 #details,
 #features,
 #projects,
-#team,
-#testimonial {
+#team {
     background: #f8f2fb;
+}
+
+#testimonial{
+    background-image: linear-gradient(to right, rgba(238, 130, 238, 0.237), rgba(0, 0, 255, 0.126));
 }
 
 #submit,
 #klean,
 #title,
 #read,
-#outstanding {
+#outstanding
+ {
     background-image: linear-gradient(to right, rgba(238, 130, 238, 0.7), rgba(0, 0, 255, 0.581));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#article{
+    background-image: linear-gradient(to right, rgb(181, 99, 235),20%, rgb(0, 76, 255));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
