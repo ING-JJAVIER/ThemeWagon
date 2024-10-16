@@ -18,7 +18,7 @@ export default function Projects() {
           <div className='flex border border-white shadow-md rounded-lg'>
             <div>
               <figure className='flex justify-center m-2 '>
-                <Image className='w-60 h-48  ' src='/projects/image1.png' width='300' height='300' alt='phone image' />
+                <Image className='w-60 h-48' src='/projects/image1.png' width='300' height='300' alt='phone image' />
               </figure>
 
               <figure className='flex justify-center m-2'>
@@ -43,12 +43,6 @@ export default function Projects() {
                 <Image className='w-60 h-80' src='/projects/image6.png' width='300' height='300' alt='phone image' />
               </figure>
             </div>
-
-
-
-
-
-
 
           </div>
         </article>
