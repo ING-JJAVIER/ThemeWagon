@@ -4,12 +4,12 @@ import Image from 'next/image'
 export default function Services() {
   return (
     <main id='services' className=' w-full h-screen overflow-hidden'>
-      <article className='flex justify-center w-full h-scren'>
-        <section className='w-8/12 grid place-content-center'>
+      <section className='flex justify-center w-full h-scren'>
+        <article className='w-8/12 grid place-content-center'>
           <h2 className='text-center font-bold text-3xl mt-3'>Service</h2>
           <p className='text-center w-[37rem]'>We offer youth with chances for career development in their practice. We also support wide range of services to ensure client satisfaction</p>
-        </section>
-      </article>
+        </article>
+      </section>
 
       <article className=' flex justify-center bg-transparent mb-5 relative h-sreen'>
         <figure className='absolute left-[22rem] w-32'>
