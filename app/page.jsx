@@ -1,11 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
+import Services from './services/page'
 
 
 export default function Home() {
   return (
     <>
-    <div>
+       <div>
       <div id='home' className='flex justify-center items-center h-full w-full'>
         <article className='flex justify-end h-full'>
           <div className='w-11/12 text-end'>
@@ -34,7 +35,6 @@ export default function Home() {
         </div>
       </footer>
       </div>
-     
     </>
   )
 }
