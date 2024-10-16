@@ -8,7 +8,7 @@ export default function Projects() {
         <article className='w-8/12 grid place-content-center'>
           <h2 className='text-center font-bold text-3xl'>Our Projects</h2>
           <div className='flex justify-center'>
-            <p className='text-center w-8/12 mt-3'>A project is a single or team activity, combining research and design with best effort. Here are some of our team`'`s projects.</p>
+            <p className='text-center w-8/12 mt-3'>A project is a single or team activity, combining research and design with best effort. Here are some of our team`&apos;`s projects.</p>
           </div>
         </article>
       </section>

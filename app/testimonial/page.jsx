@@ -22,7 +22,7 @@ export default function Testimonial() {
         </div>
         <div className='w-1/2'>
     <h2>Outstanding!!</h2>
-    <p>I just wanted to drop you a little email to say thank you for all your hard work. I'm delighted I chose you as my partner. You websites are quite simple to edit and maintain, which is fantastic.</p>
+    <p>I just wanted to drop you a little email to say thank you for all your hard work. I`&apos;`m delighted I chose you as my partner. You websites are quite simple to edit and maintain, which is fantastic.</p>
         </div>
     </article>
 </section>
