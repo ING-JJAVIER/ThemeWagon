@@ -29,8 +29,8 @@ export default function Details() {
             <button id='read' type='button' className='font-semibold text-sm border w-24 h-8 rounded-lg mt-8'>Read More</button>
           </div>
         </article>
-        <figure className='w-1/2 p-10 flex justify-center'>
-          <Image src='/details/illustration6.png' width='1080' height='720' alt='image' />
+        <figure className="w-1/2 p-10 flex justify-center">
+          <Image src="/details/illustration6.png "width="1080" height='720' alt="image" />
         </figure>
       </section>
     </main>
