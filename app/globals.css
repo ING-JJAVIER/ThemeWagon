@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import 'tailwindcss/tailwind.css';
 
 #Navbar,
 #home,
@@ -45,4 +46,13 @@
 
 #btndemo {
     background-image: linear-gradient(to right, rgba(238, 130, 238, 0.7), rgba(0, 0, 255, 0.581));
+}
+
+
+
+.bg-image {
+    background-image: url('/contact/image1.png');
+    background-size: fill;
+    background-position: center;
+    width: 70%;
 }
