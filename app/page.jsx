@@ -5,10 +5,11 @@ import Navbar from "@/components/Navbar";
 
 
 
+
 export default function Home() {
   return (
     <>
-   
+  
        <div id='home'>
        <Navbar/>
       <div  className='flex justify-center items-center h-full w-full'>
