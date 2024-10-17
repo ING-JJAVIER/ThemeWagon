@@ -42,18 +42,18 @@ export default function Footer() {
                         <span className='text-xs font-bold'>Follow Us</span>
                         <div className='flex justify-between items-center h-5 gap-2 my-2 w-28'>
                             <button type='button' className='h-full'>
-                                <img className='h-full' src="/footer/icon1.svg" alt="facebook icon" />
+                                <Image className='h-full' src="/footer/icon1.svg" widht={100} height={100} alt="facebook icon" />
                             </button>
 
                             <button type='button' className='h-full'>
-                                <img className='h-full' src="/footer/icon2.svg" alt="twitter icon" />
+                                <Image className='h-full' src="/footer/icon2.svg" widht={100} height={100} alt="twitter icon" />
                             </button>
                             <button type='button' className='h-full'>
-                                <img className='h-full' src="/footer/icon3.svg" alt="inkedin icon" />
+                                <Image className='h-full' src="/footer/icon3.svg" widht={100} height={100} alt="inkedin icon" />
                             </button>
 
                             <button type='button' className='h-full'>
-                                <img className='h-full' src="/footer/icon4.svg" alt="facebook icon" />
+                                <Image className='h-full' src="/footer/icon4.svg" widht={100} height={100} alt="facebook icon" />
                             </button>
                         </div>
                         <span className='text-xs font-bold'>Subscribe to our newsletter</span>
