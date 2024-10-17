@@ -1,9 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
+import Navbar from "@/components/Navbar";
 
 export default function Testimonial() {
   return (
     <main id='testimonial' className='w-full h-screen'>
+      <Navbar/>
       <section className='flex justify-center items-center w-full'>
         <article className='w-8/12 grid place-content-center'>
           <h2 className='text-center font-bold text-3xl'>What our clients have to say</h2>

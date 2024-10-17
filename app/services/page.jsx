@@ -1,9 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
+import Navbar from "@/components/Navbar";
 
 export default function Services() {
   return (
     <main id='services' className=' w-full h-screen overflow-hidden'>
+      <Navbar/>
       <section className='flex justify-center w-full h-scren'>
         <article className='w-8/12 grid place-content-center'>
           <h2 className='text-center font-bold text-3xl mt-3'>Service</h2>

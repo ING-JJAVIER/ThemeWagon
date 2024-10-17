@@ -1,10 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
+import Navbar from "@/components/Navbar";
 
 export default function Contact() {
   return (
     <>
       <main id='blog' className='w-full h-screen md:h-screen sm:h-screen relative z-[1]'>
+        <Navbar/>
 
         <section className='flex justify-center items-center w-full mb-20'>
           <header className='w-8/12 grid place-content-center'>

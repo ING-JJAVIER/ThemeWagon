@@ -1,9 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
+import Navbar from "@/components/Navbar";
 
 export default function Details() {
   return (
     <main id='details' className='w-full h-full'>
+      <Navbar/>
 
       <section className='flex justify-between items-center w-full mb-24'>
         <figure className='w-1/2 p-10 flex justify-center '>

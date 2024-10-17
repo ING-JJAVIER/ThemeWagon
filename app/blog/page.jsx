@@ -1,9 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
+import Navbar from "@/components/Navbar";
 
 export default function Blog() {
   return (
     <main id='blog' className='w-full h-screen md:h-screen sm:h-screen bg-gradient-to-r from-violet-100   via-blue-50 20% to-violet-100 )'>
+      <Navbar/>
       <section className='flex justify-center items-center w-full'>
         <article className='w-8/12 grid place-content-center'>
           <h2 className='text-center font-bold text-3xl'>Blog post</h2>

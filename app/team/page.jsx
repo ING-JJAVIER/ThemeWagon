@@ -1,9 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
+import Navbar from "@/components/Navbar";
 
 export default function Team() {
   return (
     <main id='team' className='w-full h-screen'>
+      <Navbar/>
       <section className='flex justify-center items-center w-full'>
         <article className='w-8/12 grid place-content-center'>
           <h2 className='text-center font-bold text-3xl'>Our team</h2>

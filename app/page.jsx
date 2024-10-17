@@ -1,13 +1,17 @@
 import React from 'react'
 import Image from 'next/image'
+import Navbar from "@/components/Navbar";
+
 
 
 
 export default function Home() {
   return (
     <>
-      {/*  <div>
-      <div id='home' className='flex justify-center items-center h-full w-full'>
+   
+       <div id='home'>
+       <Navbar/>
+      <div  className='flex justify-center items-center h-full w-full'>
         <article className='flex justify-end h-full'>
           <div className='w-11/12 text-end'>
             <h1 id='title' className='text-[2rem] font-semibold mr-2'>Bootstrap 5 theme</h1>
@@ -34,7 +38,7 @@ export default function Home() {
           <Image className='w-12 h-5' src="/themewagon.png" width="500" height="300" alt='image' />
         </div>
       </footer>
-      </div> */}
+      </div>
       
     </>
   )
