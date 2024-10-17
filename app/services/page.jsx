@@ -1,11 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
 import Navbar from "@/components/Navbar";
+import Link from 'next/link';
 
 export default function Services() {
   return (
     <main id='services' className=' w-full h-screen overflow-hidden'>
-      <Navbar/>
+      <Navbar />
       <section className='flex justify-center w-full h-scren'>
         <article className='w-8/12 grid place-content-center'>
           <h2 className='text-center font-bold text-3xl mt-3'>Service</h2>
@@ -28,13 +29,14 @@ export default function Services() {
               <h4 className='text-sm font-bold'>Send Texts Instantly</h4>
               <p className='text-[.7rem] mt-3 mb-6'>Financial planning, forecasting and adjusting rapidly with customer demands and budgets.</p>
             </div>
-            <span className='flex items-center font-semibold gap-3 text-sky-600 text-xs'>Learn More
+            <Link href={'/#'}> <span className='flex items-center font-semibold gap-3 text-sky-600 text-xs'>Learn More
               <figure>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
                 </svg>
               </figure>
             </span>
+            </Link>
           </div>
 
           <div className='border border-white bg-white p-5 flex-wap shadow-md items-center w-52 rounded-3xl'>
@@ -45,13 +47,14 @@ export default function Services() {
               <h4 className='text-sm font-bold'>Betetr Organized</h4>
               <p className='text-[.7rem] mt-3 mb-6'>Latest technology and experienced guidance, trained HR specialist to kepp updated.</p>
             </div>
-            <span className='flex items-center font-semibold gap-3 text-sky-600 text-xs'>Learn More
+            <Link href={'/#'}>  <span className='flex items-center font-semibold gap-3 text-sky-600 text-xs'>Learn More
               <figure>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
                 </svg>
               </figure>
             </span>
+            </Link>
           </div>
 
           <div className='border border-white bg-transparent p-5 flex-wap shadow-md items-center w-52 rounded-3xl'>
@@ -62,14 +65,16 @@ export default function Services() {
               <h4 className='text-sm font-bold'>Analytical Statistics</h4>
               <p className='text-xs mt-3 mb-6'>Messages, real-time reminders, memos, and many more will keep your team in sync.</p>
             </div>
-            <span className='flex items-center font-semibold gap-3 text-sky-600 text-xs'>Learn More
+            <Link href={'/#'}>  <span className='flex items-center font-semibold gap-3 text-sky-600 text-xs'>Learn More
               <figure>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
                 </svg>
               </figure>
             </span>
+            </Link>
           </div>
+
         </section>
       </article>
     </main>

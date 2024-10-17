@@ -11,20 +11,37 @@ export default function Navbar() {
                 <div id='menu' className='flex items-center w-full justify-start  px-10 py-3'>
 
                     <div className='flex items-center justify-center'>
-                        <Image src="/icon.png" width='54' height='54' alt='logo'/>
+                        <Image src="/navbar/icon.png" width='54' height='54' alt='logo'/>
                         <span id='klean' className='font-semibold text-[1rem]'>Klean</span>
                     </div>
 
                     <div className='flex gap-3 ml-5 '>
-                        <Link href='/'><li className='hover:text-sky-500'>Home</li></Link>
-                        <Link href='/services'><li className='hover:text-sky-500'>Services</li></Link>
-                        <Link href='/details'><li className='hover:text-sky-500'>Details</li></Link>
-                        <Link href='/features'><li className='hover:text-sky-500'>Features</li></Link>
-                        <Link href='/projects'> <li className='hover:text-sky-500'>Projects</li></Link>
-                        <Link href='team'> <li className='hover:text-sky-500'>Team</li></Link>
-                        <Link href='testimonial'><li className='hover:text-sky-500'>Testimonial</li></Link>
-                        <Link href='blog'> <li className='hover:text-sky-500'>Blog</li></Link>
-                        <Link href='contact'> <li className='hover:text-sky-500'>Contact</li></Link>
+                        <Link href='/'><li className='hover:text-sky-500'><button
+                        >Home</button></li>
+                        </Link>
+
+                        <Link href='/services'><li className='hover:text-sky-500'><button type='button'>Services</button></li>
+                        </Link>
+
+                        <Link href='/details'><li className='hover:text-sky-500'><button type="button">Details</button></li></Link>
+
+                        <Link href='/features'><li className='hover:text-sky-500'><button>Features</button></li>
+                        </Link>
+
+                        <Link href='/projects'> <li className='hover:text-sky-500'><button type="button">Projects</button></li>
+                        </Link>
+
+                        <Link href='team'> <li className='hover:text-sky-500'><button type="button">Team</button></li>
+                        </Link>
+
+                        <Link href='testimonial'><li className='hover:text-sky-500'><button type='button'>Testimonial</button></li>
+                        </Link>
+
+                        <Link href='blog'> <li className='hover:text-sky-500'><button type="button">Blog</button></li>
+                        </Link>
+
+                        <Link href='contact'> <li className='hover:text-sky-500'><button type="button">Contact</button></li>
+                        </Link>
                     </div>
 
                     <div className='flex flex-grow items-center justify-end'>
