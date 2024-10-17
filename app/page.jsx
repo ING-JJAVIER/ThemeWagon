@@ -18,7 +18,7 @@ export default function Home() {
             <h1 id='title' className='text-[2rem] font-semibold mr-2'>Bootstrap 5 theme</h1>
             <h2 className='text-2xl'>crafted by <strong>Theme Wagon</strong></h2>
             <div className='flex justify-end'>
-              <p className='mt-2 w-[19rem] text-start ml- text-[.6rem] '>We've spent the last 7 years helping over 1 million people like yourself to create stunning websites with minimum effort</p>
+              <p className='mt-2 w-[19rem] text-start ml- text-[.6rem] '>We`&apos;`ve spent the last 7 years helping over 1 million people like yourself to create stunning websites with minimum effort</p>
             </div>
             <div className='flex justi'>
               <button id='btndemo' type='button' className='text border text-xs w-20 h-6 rounded-lg mt-8 text-white'>Click Demo</button>
